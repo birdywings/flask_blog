@@ -1,0 +1,8 @@
+﻿<p>{{ user.username }}</p>
+
+
+<p>Welcome to WTF blog!</p>
+
+<p>点击下列链接确认：</p>
+
+<p>{{ url_for('auth.confirm',token=token,_external=True) }}</p>

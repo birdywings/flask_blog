@@ -1,0 +1,9 @@
+﻿{{ user.username }}
+
+
+Welcome to WTF blog!
+
+<p>点击下列链接确认：</p>
+
+{{ url_for('auth.confirm',token=token,_external=True) }}
+
